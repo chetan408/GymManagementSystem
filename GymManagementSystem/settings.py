@@ -112,3 +112,10 @@ MEDIA_URL='/media/'
 MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 
 DEFAULT_AUTO_FIELD='django.db.models.AutoField'
+
+# Flask
+# app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
+
+# # Django (in settings.py)
+# ALLOWED_HOSTS = ['*']
+
